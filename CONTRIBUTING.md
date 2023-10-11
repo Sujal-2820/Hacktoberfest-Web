@@ -1,4 +1,4 @@
-<img src="img/readme/hacktoberfest-2023.jpeg" alt="hacktoberfest 2023" width="100%"/>
+<img src="IMG/hacktoberfest10.jpg" alt="hacktoberfest 2023" width="100%"/>
 
 # Hacktoberfest Summary
 
