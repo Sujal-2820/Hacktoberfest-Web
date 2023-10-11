@@ -8,11 +8,11 @@
 
 <br>
 
-> **`1`** Fork The **<code><a href="github.com/divyanshudhruv/Minifolio">Repository</a></code>**
+> **`1`** Fork The **<code><a href="https://github.com/Sujal-2820/Hacktoberfest-Web">Repository</a></code>**
 
-> **`2`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/issues">Issue</a></code>**
+> **`2`** Create **<code><a href="https://github.com/Sujal-2820/Hacktoberfest-Web/issues">Issue</a></code>**
 
-> **`3`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/pulls">Pull Request</a></code>**
+> **`3`** Create **<code><a href="https://github.com/Sujal-2820/Hacktoberfest-Web/pulls">Pull Request</a></code>**
 
 <br>
 
