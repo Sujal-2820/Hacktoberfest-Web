@@ -10,11 +10,11 @@ For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
 
 1) **Star this repository** (See top right of this page.  Click the **"Star"** button.)
 
-    <img src="img/readme/star-repo.png" alt="circle around Star button" width="100%"/>
+    <img src="IMG/Star.jpg" alt="circle around Star button" width="100%"/>
 
 2) **Fork this repository** (See top right of this page.  Click the **"Fork"** button.  On the next screen that appears, click the green **"Create fork"** button in the lower right.)
 
-    <img src="img/readme/fork-repo.png" alt="circle around Fork button" width="100%"/>
+    <img src="IMG/Fork.jpg" alt="circle around Fork button" width="100%"/>
 
 3) **Open a Terminal**, where you can enter command line text. For the next steps, you'll be using this terminal.
 
@@ -50,7 +50,7 @@ For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
 
 10) **Create a new pull request** from your forked repo at GitHub.  (Click on the green **"Compare & pull request"** button that is near the top of the page.)
 
-    <img src="img/readme/compare-and-pull-request.png" alt="compare and pull request button" width="100%"/>
+    <img src="IMG/PR.jpg" alt="compare and pull request button" width="100%"/>
 
 11) **Wait for your PR review and merge approval**.   I will review it as soon as possible.  Thank you for your time and effort in improving this project!
 
