@@ -1,6 +1,3 @@
-<p align="center"><img src="Minifolio.png" width="120" height="120"></p>
-<h1 align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Minifolio ⚡</h1>
-<br>
 <p align="center"><code>Thankyou for contributing in the project</code></p>
 <br>
 <br>
