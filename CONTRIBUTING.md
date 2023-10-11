@@ -1,411 +1,57 @@
-<p align="center"><code>Thankyou for contributing in the project</code></p>
-<br>
-<br>
+<img src="img/readme/hacktoberfest-2023.jpeg" alt="hacktoberfest 2023" width="100%"/>
 
+# Hacktoberfest Summary
 
+Hacktoberfest is an event on GitHub or GitLab that encourages everyone to participate in open source software development.  You are tasked with making **4 or more pull requests** during the month of October.  If your pull requests are accepted, then you win digital badges.  It's a chance to learn more about git, GitHub or GitLab, and in the case of this project, more about **web development, JavaScript, HTML, and CSS**.
 
-## 🙏🏻 First Contribution
+For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
 
-<br>
+# Getting Started
 
-> **`1`** Fork The **<code><a href="https://github.com/Sujal-2820/Hacktoberfest-Web">Repository</a></code>**
+1) **Star this repository** (See top right of this page.  Click the **"Star"** button.)
 
-> **`2`** Create **<code><a href="https://github.com/Sujal-2820/Hacktoberfest-Web/issues">Issue</a></code>**
+    <img src="img/readme/star-repo.png" alt="circle around Star button" width="100%"/>
 
-> **`3`** Create **<code><a href="https://github.com/Sujal-2820/Hacktoberfest-Web/pulls">Pull Request</a></code>**
+2) **Fork this repository** (See top right of this page.  Click the **"Fork"** button.  On the next screen that appears, click the green **"Create fork"** button in the lower right.)
 
-<br>
+    <img src="img/readme/fork-repo.png" alt="circle around Fork button" width="100%"/>
 
-## ⚠️ Merging
+3) **Open a Terminal**, where you can enter command line text. For the next steps, you'll be using this terminal.
 
-<br>
+4) **Clone the forked repository** down to your machine:
 
-> **`1`** Please open the pull request in the **`developement`** branch to avoid any conflict
+   `git clone git@github.com:<your-username>/Hacktoberfest-Web.git`
+   
+   Remember to replace `<your-username>` with your GitHub username.
 
-> **`2`** The pull request will be merged in 2-3 days.
+5) **Go into your local repo directory**
 
-> **`3`** Good luck !
+   `cd Hacktoberfest-Web`
 
- <br>
+6) **Create a branch**
 
-## 🐞 Bugs
+   `git checkout -b <your-branch-name>`
 
-<br>
+   Think of a name for your new branch.  Your branch name can be anything, but it's better if it briefly describes the change you are making.  Replace `<your-branch-name>` with the branch name you've chosen.
 
-> **`1`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/issues">Issue</a></code>**
+7) **Edit your changes** in a code editor, such as VS Code.
 
-> **`2`** Add **<code><a href="github.com/divyanshudhruv/Minifolio/labels">Labels</a></code>**
+8) **Preview your changes**
 
-> **`3`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/pulls">Pull Request</a></code>**
+   `git status`
 
-<br>
+9) **Send your changes up to your forked repo at GitHub:  Add, commit and push**
 
-## ✏️ Typo
+   ```
+   git add .
+   git commit -m "Your commit message"
+   git push -u origin <your-branch-name>
+   ```
 
-<br>
+10) **Create a new pull request** from your forked repo at GitHub.  (Click on the green **"Compare & pull request"** button that is near the top of the page.)
 
-> **`1`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/issues">Issue</a></code>**
+    <img src="img/readme/compare-and-pull-request.png" alt="compare and pull request button" width="100%"/>
 
-> **`2`** Add **<code><a href="github.com/divyanshudhruv/Minifolio/labels">Labels</a></code>**
+11) **Wait for your PR review and merge approval**.   I will review it as soon as possible.  Thank you for your time and effort in improving this project!
 
-> **`3`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/pulls">Pull Request</a></code>**
-
-<br>
-
-## ✨ New Feature
-
-<br>
-
-> **`1`** Join The **<code><a href="github.com/divyanshudhruv/Minifolio/issues/1">Discussions</a></code>**
-
-> **`2`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/issues">Issue</a></code>**
-
-> **`3`** Add **<code><a href="github.com/divyanshudhruv/Minifolio/labels">Labels</a></code>**
-
-> **`4`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/pulls">Pull Request</a></code>**
-
-<br>
-
-## 🔥 Enhancement
-
-<br>
-
-> **`1`** Join The **<code><a href="github.com/divyanshudhruv/Minifolio/issues/1">Discussions</a></code>**
-
-> **`2`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/issues">Issue</a></code>**
-
-> **`3`** Add **<code><a href="github.com/divyanshudhruv/Minifolio/labels">Labels</a></code>**
-
-> **`4`** Create **<code><a href="github.com/divyanshudhruv/Minifolio/pulls">Pull Request</a></code>**
-
-<br>
-
-## ✏️ Format
-
-<br>
-
-> **`1`** To **`Pull Request`** use the following format :
-
-<br>
-
-```ruby
-Your Repository Title With Link
-
-# Short Description
-
-# Points Added Or Removed
-
-# Links To Issues
-
-Files Changed
-```
-
-<br>
-
-> **`2`** To submit a **`Bug Report`** use the following format :
-
-<br>
-
-```markdown
-<!--
-name: "🐛 Bug report"
-title: "🐛 <title>"
--->
-
-<!--
-Note: Please search to see if an issue already exists for the bug you encountered.
--->
-
-## 🫤 Current Behaviour:
-
-<br>
-
-> A concise description of what you're experiencing
-
-<br>
-
-## 🤔 Expected Behavior:
-
-<br>
-
-> A concise description of what you expected to happen
-
-<br>
-
-## 🧪 Steps To Reproduce:
-
-<br>
-
-> **`1`** Go to '...'
-> **`2`** Click on '...'
-> **`3`** Scroll down to '...'
-> **`4`** See error
-
-<br>
-
-## 🌱 Environment:
-
-<br>
-
-> - OS: Windows4
-> - Browser: Edge
-> - Version: 31.45.5.57
-
-<br>
-
-## 📦 Anything else:
-
-<br>
-
-> Links? References? Anything that will give us more context about the issue that you are encountering!
-
-<br>
-
-## 🎉 Hacktoberfest
-
-<br>
-
-> - [] I want to participate <!--Check the box to assign the issue/pull request hacktoberfest label-->
-
-<br>
-  
-## 📌 Related Issue
-
-<br>
-
-> Link to other issues related to this problem
-```
-
-<br>
-
-> **`3`** To submit a **`Typo Report`** use the following format :
-
-<br>
-
-```markdown
-<!--
-name: "✏️ Typo report"
-title: "✏️ <title>"
--->
-
-<!--
-Note: Please search to see if an issue already exists for the typo you encountered.
--->
-
-## 🫤 Description
-
-<br>
-
-> Describe the typo you found
-
-<br>
-
-## 📍 Location
-
-<br>
-
-> File name: <File Name>
-
-> Line number: <Line Number>
-
-> URL: <URL>
-
-<br>
-
-## 🧪 Correction
-
-<br>
-
-> Provide the corrected text or suggest how to fix the typo
-
-<br>
- 
-## 📦 Additional Information
-
-<br>
-
-> Add any other relevant information here.
-
-<br>
-
-## 🌱 Contribute
-
-<br>
-
-> - [] I want to contribute <!--Check the box to assign yourself-->
-
-<br>
-
-## 🎉 Hacktoberfest
-
-<br>
-
-> - [] I want to participate <!--Check the box to assign the issue/pull request hacktoberfest label-->
-
-<br>
-  
-## 📌 Related Issue
-
-<br>
-
-> Link to other issues related to this problem
-
-```
-
-<br>
-
-> **`4`** To suggest a **`New Feature`** use the following format :
-
-<br>
-
-```markdown
-<!--
-name: "✨ Feature request"
-title: "✨ <title>"
--->
-
-<!--
-Note: Please search to see if an issue already exists for the same feature request.
--->
-
-## 🫤 Description
-
-<br>
-
-> Describe the new feature you are proposing
-
-<br>
-
-## 📍 Use Case
-
-<br>
-
-> Explain why this feature would be valuable and how it would benefit the project.
-
-<br>
-
-## 📦 Additional Information
-
-<br>
-
-> Add any other relevant information here.
-
-<br>
-
-## ✋🏻 Upvotes
-
-<br>
-
-> If you support this feature request, add a 👍🏻.
-
-<br>
-
-## 🤔 To-Do
-
-<br>
-
-> If you have specific tasks or action items related to this feature request, list them here.
-
-<br>
-
-## 🌱 Contribute
-
-<br>
-
-> - [] I want to contribute <!--Check the box to assign yourself-->
-
-  <br>
-
-## 🎉 Hacktoberfest
-
-<br>
-
-> - [] I want to participate <!--Check the box to assign the issue/pull request hacktoberfest label-->
-
-<br>
-
-## 📌 Related Issue
-
-<br>
-
-> Link to other issues related to this problem
-```
-
-<br>
-
-> **`5`** To suggest a **`Enhancement`** Use The Following Format :
-
-<br>
-
-```markdown
-<!--
-name: "🔥 Enhancement"
-title: "🔥 <title>"
--->
-
-<!--
-Note: Please search to see if an issue already exists for the same enhancement.
--->
-
-## 🫤 Description
-
-<br>
-
-> Describe the enhancement you are proposing
-
-<br>
-
-## 📍 Use Case
-
-<br>
-
-> Explain why this enhancement would be valuable and how it would benefit the project.
-
-<br>
-
-## 📦 Additional Information
-
-<br>
-
-> Add any other relevant information here.
-
-<br>
-
-## ✋🏻 Upvotes
-
-<br>
-
-> If you support this enhancement, add a 👍🏻.
-
-<br>
-
-## 🤔 To-Do
-
-<br>
-
-> If you have specific tasks or action items related to this enhancement, list them here.
-
-<br>
-
-## 🌱 Contribute
-
-<br>
-
-> - [] I want to contribute <!--Check the box to assign yourself-->
-
-  <br>
-
-## 🎉 Hacktoberfest
-
-<br>
-
-> - [] I want to participate <!--Check the box to assign the issue/pull request hacktoberfest label-->
-
-<br>
-
-## 📌 Related Issue
-
-<br>
-
-> Link to other issues related to this problem
-```
+12) **Celebration time!** 🎊 Your PR has been approved! You are a genuine open sourcerer! 🧙 You have unlocked the knowledge and power to make changes throughout the open source world.  What will be next?
