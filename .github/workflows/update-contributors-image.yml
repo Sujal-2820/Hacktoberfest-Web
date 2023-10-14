@@ -1,1 +1,32 @@
+name: Update Contributors Image
 
+on:
+  push:
+    branches:
+      - main  # Modify the branch name as needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x  # Use the appropriate Python version
+
+    - name: Run Image Collage Generator
+      run: |
+        # Add the commands to run your image collage generator script here
+        python generate_contributors_image.py  # Modify this according to your script
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add contributors.jpg
+        git commit -m "Update contributors image"
+        git push
