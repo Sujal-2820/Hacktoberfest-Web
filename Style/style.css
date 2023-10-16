@@ -94,7 +94,7 @@ footer {
 footer .links {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 200px;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
