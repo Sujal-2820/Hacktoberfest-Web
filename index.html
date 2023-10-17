@@ -22,16 +22,51 @@
     </header>
     <main>
         <section>
-            <h2>Images</h2>
-            <img src="Image/technology2.PNG" width="33%"></img>
-            <img src="Image/Technology.PNG" width="33%"></img>
-            <br>
-            <br>
-            <br> 
-            <img src="Image/Nature.PNG" width="33%"></img>
-            <img src="Image/24 hours.PNG" width="33%"></img>
-            <br>
-            <hr>
+                  <h2>Images</h2>
+            <!--Image slider starts-->
+            <center>
+            <div class="slider">
+                <div class="slides">
+                       <!--radio buttons starts-->
+                    <input type="radio" name = "radio-btn" id="radio1">
+                    <input type="radio" name = "radio-btn" id="radio2">
+                    <input type="radio" name = "radio-btn" id="radio3">
+                    <input type="radio" name = "radio-btn" id="radio4">
+                          <!--radio buttons ends here-->
+                        <!--slide images  starts-->
+                    <div class="slide first">
+                        <img src="Image/technology2.PNG" ></img>
+                    </div>
+                    <div class="slide">
+                        <img src="Image/Technology.PNG"></img>
+                    </div>
+                    <div class="slide">
+                        <img src="Image/Nature.PNG" ></img>
+                    </div>
+                    <div class="slide">
+                        <img src="Image/24 hours.PNG"></img>
+                    </div>
+                          <!--slide images  ends-->
+                    <!--Automatic navigation start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--Automatic navigation ends-->
+                </div>
+                <!--Manual start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--Manual end-->
+            </div>
+             <!--Image slider starts-->
+            </center>
         </section>
         <section>
             <h2>College Reviews</h2>
