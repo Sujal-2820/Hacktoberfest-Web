@@ -7,6 +7,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+.study_materials{
+	width: 100%;
+}
+
+.slide{
+  width: 100%;
+}
 
 header h1 {
   text-align: center;
@@ -50,10 +57,6 @@ section:nth-child(even) {
   background-color: rgb(241, 241, 241);
 }
 
-/* section {
-    min-height: 100vh;
-} */
-
 video {
   padding: 10px;
 }
@@ -67,7 +70,7 @@ img {
 }
 .slider {
   overflow: hidden;
-  width: 800px;
+  width: 100%;
   height: 500px;
   border-radius: 10px;
 }
@@ -84,12 +87,12 @@ img {
 }
 
 .slide {
-  width: 20%;
+  width: 100%;
   transition: 2s;
 }
 
 .slide img {
-  width: 800px;
+  width: 100%;
   height: 500px;
 }
 
