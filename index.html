@@ -9,64 +9,34 @@
 </head>
 
 <body>
-  
+
     <nav>
-        <a href="index.html">Home</a>
+        <div class ="logo">
+        <a>img</a>
+        <a> logoname</a>
+    </div>
+      <div class ="items">
+        <a href="#">Home</a>
         <a href="#">Courses</a>
         <a href="#">College Reviews</a>
         <a href="#">Study Material</a>
-        <a href="login.html">Login / Sign Up</a>
-    </nav>
+        <a href="#">Login / Sign Up</a>
+    </div> </nav>
       <header>
         <h1>Sample Website</h1>
     </header>
     <main>
         <section>
-                  <h2>Images</h2>
-            <!--Image slider starts-->
-            <center>
-            <div class="slider">
-                <div class="slides">
-                       <!--radio buttons starts-->
-                    <input type="radio" name = "radio-btn" id="radio1">
-                    <input type="radio" name = "radio-btn" id="radio2">
-                    <input type="radio" name = "radio-btn" id="radio3">
-                    <input type="radio" name = "radio-btn" id="radio4">
-                          <!--radio buttons ends here-->
-                        <!--slide images  starts-->
-                    <div class="slide first">
-                        <img src="Image/technology2.PNG" ></img>
-                    </div>
-                    <div class="slide">
-                        <img src="Image/Technology.PNG"></img>
-                    </div>
-                    <div class="slide">
-                        <img src="Image/Nature.PNG" ></img>
-                    </div>
-                    <div class="slide">
-                        <img src="Image/24 hours.PNG"></img>
-                    </div>
-                          <!--slide images  ends-->
-                    <!--Automatic navigation start-->
-                    <div class="navigation-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                        <div class="auto-btn4"></div>
-                    </div>
-                    <!--Automatic navigation ends-->
-                </div>
-                <!--Manual start-->
-                <div class="navigation-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                </div>
-                <!--Manual end-->
-            </div>
-             <!--Image slider starts-->
-            </center>
+            <h2>Images</h2>
+            <img src="Image/technology2.PNG" width="33%"></img>
+            <img src="Image/Technology.PNG" width="33%"></img>
+            <br>
+            <br>
+            <br> 
+            <img src="Image/Nature.PNG" width="33%"></img>
+            <img src="Image/24 hours.PNG" width="33%"></img>
+            <br>
+            <hr>
         </section>
         <section>
             <h2>College Reviews</h2>
@@ -77,60 +47,28 @@
         <hr>
         <section>
             <h2>Study Material</h2>
-            <a target="_blank" href="Notes/PH Unit - I.pdf"><img src="Notes/Ph1.png" width="30%" height="" alt=""></a>
-            <br>
-            <a target="_blank" href="Notes/PH Unit - II.pdf"><img src="Notes/Ph2.png" width="30%" height="" alt=""></a>
+            <a target="_blank" href="Notes/PH Unit - I.pdf"><img src="Notes/Ph1.png" width="33%" height="" alt=""></a>
+            <a target="_blank" href="Notes/PH Unit - II.pdf"><img src="Notes/Ph2.png" width="33%" height="" alt=""></a>
             <hr>
             <hr>
         </section>
         <section>
-            <h2><u>Project Maintainer</u></h2>
+            <h2>Project Contributors</h2>
             <div class="developer-info">
                 <img src="Contributors/Sujal-Soni1.jpg" width="20%" alt="">
                 <h3><i>Sujal Soni</i></h3>
-                <a href="https://www.github.com/Sujal-12345" target="_blank">Github</a>&nbsp;
+                <a href="https://www.github.com/Sujal-12345" target="_blank">Github</a>
             </div>
         </section>
         <br></br>
     </main>
-    <footer>
-        <div class="links">
-            <div class="footer-links">
-                <a href="#">FAQ</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Follow</a>
-                <a href="#">More From Us</a>
-
-            </div>
-            <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">Courses</a>
-                <a href="#">College Reviews</a>
-                <a href="#">Study Matrial</a>
-            </div>
-            <div class="nav-links">
-                <a href="#">Login/Sign up</a>
-                <a href="#">Subscribe</a>
-                <a href="#">Terms of USE</a>
-                <a href="#">Privacy Policy</a>
-            </div>
-        </div>
-        <div class="copyright">
-            <a href="#">&copy;2023 Website. All Rights Reserved</a>
-        </div>
-    </footer>
-
-      <script type ="text/javascript">
-        var counter = 1;
-        setInterval(function(){
-            document.getElementById('radio'+counter).checked=true;
-            counter++;
-            if(counter>4){
-                counter=1;
-            }
-
-        },5000);
-
-    </script>
+    <footer><div class  ="items">
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of USE</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">More From Us</a>
+        <a href="#">&copy;2023 Website. All Rights Reserved</a>
+    </div> </footer>
 </body>
 </html>
