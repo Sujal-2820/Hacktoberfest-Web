@@ -24,7 +24,6 @@ nav {
   overflow: hidden;
 }
 
-
 nav a {
   text-decoration: none;
   padding: 20px;
@@ -37,8 +36,8 @@ nav a:hover {
   background-color: rgb(17, 124, 143);
 }
 
-nav a:hover{
-    background-color: rgb(17, 124, 143);
+nav a:hover {
+  background-color: rgb(17, 124, 143);
 }
 
 main {
@@ -121,19 +120,20 @@ img {
   background: rgb(17, 124, 143);
 }
 
-.college-review{
+.college-review {
   display: flex;
   flex-direction: column;
 }
 
-.college-review-row{
+.college-review-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.college-review-row>iframe{
-  margin: 10px;
+.college-review-row > iframe {
+  margin: 12px;
+
 }
 
 #radio1:checked ~ .first {
@@ -232,32 +232,31 @@ footer .links {
   padding-top: 30px;
 }
 
-
-@media screen and (max-width: 900px){
-  .college-review-row{
+@media screen and (max-width: 900px) {
+  .college-review-row {
     flex-direction: column;
     align-items: center;
   }
 
-  .college-review-row>iframe{
+  .college-review-row > iframe {
     width: 600px;
   }
 }
 
-@media screen and (max-width: 700px){
-  .college-review-row>iframe{
+@media screen and (max-width: 700px) {
+  .college-review-row > iframe {
     width: 400px;
   }
 }
 
-@media screen and (max-width: 500px){
-  .college-review-row>iframe{
+@media screen and (max-width: 500px) {
+  .college-review-row > iframe {
     width: 300px;
   }
 }
 
-@media screen and (max-width: 350px){
-  .college-review-row>iframe{
+@media screen and (max-width: 350px) {
+  .college-review-row > iframe {
     width: 200px;
   }
 }
