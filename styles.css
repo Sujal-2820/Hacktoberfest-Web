@@ -14,7 +14,7 @@
 	background-position: center;
 	background-size: cover;
 	position: absolute;
-	background-color: white;
+	background: radial-gradient(white , #f3c693c2, #000000);
 	
 }
 
