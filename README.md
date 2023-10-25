@@ -5,6 +5,11 @@
 <br>
 <br>
 
+#  Note ⛔
+<p>This repository is no longer accepted in Hacktoberfest. So the contributions made in this repository will not be counted as a PR for Hacktoberfest</p>
+<br>
+<p>However if you still desire to get the Hacktoberfest Tag with your PR submission, you can visit this repository ( <a href="https://github.com/Sujal-2820/Stopwatch">Stopwatch Interface</a> ) and make valuable contributions</p>
+
 
 ## 🚩 License
 
