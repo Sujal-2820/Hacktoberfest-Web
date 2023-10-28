@@ -14,7 +14,7 @@
 	background-position: center;
 	background-size: cover;
 	position: absolute;
-	background-color: white;
+	background-image: url(./IMG/loginPageBG.gif);
 	
 }
 
@@ -31,7 +31,7 @@ a
 	height:480px;
 	position:relative;
 	margin:2% auto;
-	background:black;
+	background: #333;
 	padding:10px;
     overflow: hidden;
 
@@ -100,10 +100,19 @@ a
 	cursor: pointer;
 	display: block;
 	margin: auto;
+	color: #333;
+	font-weight: bold;
 	background: #F3C693;
 	border: 0;
 	outline: none;
 	border-radius: 30px;
+}
+/*Hover effect in submit buttons*/
+.submit-btn:hover{
+	transition-duration: 0.5s;
+	background: #d8b083;
+	font-size: 13.8px;
+	
 }
 .check-box
 {
@@ -111,7 +120,7 @@ a
 }
 span
 {
-	color:#777;
+	color:#F9F6EE;
 	font-size:12px;
 	bottom:68px;
 	position:absolute;
@@ -124,6 +133,16 @@ span
 {
 	color:white;
 	font-size:15;
+}
+
+/*Placeholder color*/
+#login input::placeholder{
+	color: #F9F6EE;
+	
+}
+#register input::placeholder{
+	color: #F9F6EE;
+	
 }
 #register
 {
